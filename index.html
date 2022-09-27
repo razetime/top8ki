@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <script src="country.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.15/paper-full.js" integrity="sha512-XV5MGZ7Tv+G60rzU8P7tPUlaf0yz7SJ/uI9CLAwyLcZKl9kzxJQFs3nsBNZVNVAwNOkBLqrzMvjGMEycDccqiA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <title>KI Top 8</title>
+</head>
+<body>
+  <div class="container">
+    <h1>KI Top 8 Graphic Generator</h1>
+  </div>
+  <div class="row">
+    <div class="container inputs0"></div>
+  </div>
+  <div class="row">
+    <div class="container inputs1"></div>
+  </div>
+  <div class="container">
+    <input type="text" class="tl" value="Top Left Text">
+    <input type="text" class="tr" value="Top Right Text">
+    <input type="text" class="bl" value="Bottom Left Text">
+    <input type="text" class="br" value="Bottom Right Text">
+    <button class="button-primary gen">Generate</button>
+  </div>
+  <canvas width="1536" height="863"></canvas>
+  <img src="./assets/ki-logo.jpg" alt="" id="bg" style="display: none;">
+  <script type="module" src="index.js"></script>
+</body>
+</html>
